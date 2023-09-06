@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@1,900&family=Hind:wght@700&family=Montserrat:wght@300;400&family=Oswald:wght@600&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap');
+
+*{
+    font-family: 'Roboto Mono';
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+header{
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(21, 15, 59);
+    gap: 80px;
+    background-color: #161b3f97;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    min-width: 100vw;
+
+}
+header ul{
+    place-self: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px ;
+}
+header  ul li{
+    display: inline;
+    list-style: none;
+    color: aliceblue;
+    font-size: 22px;
+    margin: 20px;
+
+}
+li{
+    list-style: none;
+}
+
+
+
+.name-container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 900px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 40px;
+}
+.name-container:hover{
+    color: orange;
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+
+header li:hover{
+    color: orange;
+    transform: scale(1.07);
+    transition: 0.2s ease-in;
+}
+.main-container{
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-container ul li{
+    list-style: none;
+    margin: 25px;
+}
+#main{
+    margin: 0px;
+}
+.heading{
+    font-size: 42px;
+    font-weight: 1000;
+    font-family: 'Montserrat';
+    color: aliceblue;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heading-sub{
+    font-size: 34px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+.main-btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgb(60, 175, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    font-weight:500;
+    color: black;
+    border: 1px solid rgba(240, 248, 255, 0.685);
+}
+.main-btn:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in;
+}
+.main-btn:active{
+    transform: translateX(4px) translateY(4px);
+    background-color: rgb(0, 255, 119);
+    backdrop-filter: blur(5px);
+    transition: 0.2s ease-in;
+}
+.flex-container i{
+    font-size: 34px;
+    color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+}
+.flex-container i:hover{
+    color: dodgerblue;
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+ .para-container{
+    width: 40vw;
+    height: auto;
+    color: aliceblue;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 25px;
+    padding: 10px;
+    width: 480px;
+    margin-right: 55px;
+flex-wrap: wrap;
+
+ }
+ .block{
+    display: block;
+    width: 100vw;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    max-height: 20px;
+    margin-left: 35px;
+ }
+.profile-img{
+    width: 375px;
+    height: 500px;
+    margin: 60px;
+    border-radius: 15px;
+    border: 1px solid rgba(240, 248, 255, 0.742);
+}
+.main-container-left{
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.flex-container-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.flex-container-right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.project-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 420px;
+    height: 350px;
+    margin: 15px;
+}
+.project-img{
+    width: 420px;
+    height: 270px;
+    border-radius: 15px;
+    border: 1px solid rgba(240, 248, 255, 0.66);
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 10px;
+}
+.blog-btn{
+    width: 135px;
+    height:45px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color:rgb(104, 88, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight:600;
+    color: aliceblue;
+}
+.blog-btn:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+
+}
+.blog-btn:active{
+    transform: translateX(3px) translateY(3px);
+    background-color: rgb(0, 255, 119);
+    transition: 0.1s ease-in;
+    color: black;
+
+}
+.margin-buttom{
+    margin-bottom: 280px;
+}
+/* chat buton styles */
+/* Chat button styles */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+
+#open-chat-button {
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.chat-button i{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h4{
+    font-family: 'Roboto Mono';
+    font-weight:600;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.heading-sub2{
+    font-size: 44px;
+    font-family:'Roboto mono';
+    font-weight:bolder;
+    color: orange;
+    margin-right: 50px;
+    margin: 10px;
+    padding: 15px;
+}
+footer{
+    height: 7vh;
+    text-align: center;
+    border-top: 1px solid rgba(240, 248, 255, 0.621);
+    padding: 10px;
+    font-size: 16px;
+    background-color: #252b5b97;
+}
+h5{
+    font-size: 16px;
+    display: inline;
+    font-weight: normal;
+}
+/* Initial state for elements with animate-scroll class */
+.animate-scroll {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1.3s ease, opacity 1.3s ease;
+}
+
+/* Animation effect on scroll */
+.animated .animate-scroll {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 15px;
+    font-size: 16px;
+    border: 1px rgba(240, 248, 255, 0.784);
+    background-color: rgba(240, 248, 255, 0.53);
+    border-radius: 10px;
+
+
+}
+.margin-top{
+    margin-top: 25px;
+}
+
